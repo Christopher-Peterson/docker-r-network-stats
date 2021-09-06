@@ -8,7 +8,7 @@ The image also contains the tidyverse, a variety of geospatial packages, the Int
 
 1. **Install Docker.** Instructions for [Windows](https://docs.docker.com/desktop/windows/), [Mac](https://docs.docker.com/desktop/mac/), and [Ubuntu](https://docs.docker.com/engine/install/ubuntu/). More information [here](https://containers-at-tacc.readthedocs.io/en/latest/containers/02.dockerbasics.html).
 
-2. **Pull the Network Stats Docker image.** In the terminal, run `sudo docker pull crpeters/r-numerical-ecology:4.1.1`
+2. **Pull the Network Stats Docker image.** In the terminal, run `sudo docker pull crpeters/r-network:4.1.1`
 3. **Create a working directory on your local machine.** You don't need to put anything in it yet.
 4. **Initialize the image:** Run the following code, adjusting `LOCAL_DIR` and `PASSWORD` if so desired
 ```bash
@@ -37,7 +37,7 @@ When you're done, run `sudo docker container stop r-network-stats` to shut it do
 
 ## Building the docker image
 
-If you'd like to build the image yourself, you'll need to make a docker account ([info here](https://containers-at-tacc.readthedocs.io/en/latest/containers/02.dockerbasics.html)).  Download `r-numerical-ecology.dockerfile`, then run
+If you'd like to build the image yourself, you'll need to make a docker account ([info here](https://containers-at-tacc.readthedocs.io/en/latest/containers/02.dockerbasics.html)).  Download `r-network.dockerfile`, then run
 
 ```bash
 
